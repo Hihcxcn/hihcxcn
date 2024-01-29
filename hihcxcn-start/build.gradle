@@ -8,6 +8,11 @@ repositories {
 }
 
 dependencies {
+    //依赖子模块
+    implementation project(':hihcxcn-api')
+    implementation project(':hihcxcn-common')
+    implementation project(':hihcxcn-server')
+    //模块特性依赖
     testImplementation platform('org.junit:junit-bom:5.9.1')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
