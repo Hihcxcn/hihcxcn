@@ -46,7 +46,15 @@ subprojects {
     }
 
     dependencies {
-        implementation 'org.springframework.boot:spring-boot-starter-web:3.2.2'
+        compileOnly 'org.projectlombok:lombok:1.18.30'
+        annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
         implementation 'com.google.guava:guava:32.1.2-jre'
+        implementation 'mysql:mysql-connector-java:8.0.28'
+        implementation 'org.mybatis:mybatis-spring:3.0.3'
+        implementation ('com.baomidou:mybatis-plus-boot-starter:3.5.5') {
+            exclude group: 'org.mybatis', module: 'mybatis-spring'
+        }
+        implementation 'org.springframework.boot:spring-boot-starter-web:3.2.2'
     }
 }

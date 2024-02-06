@@ -10,8 +10,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.9.1')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    implementation 'org.freemarker:freemarker:2.3.30'
+    implementation 'com.baomidou:mybatis-plus-generator:3.5.3.1'
 }
 
 test {
