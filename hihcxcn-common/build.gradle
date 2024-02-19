@@ -12,6 +12,8 @@ repositories {
 dependencies {
     implementation 'org.freemarker:freemarker:2.3.30'
     implementation 'com.baomidou:mybatis-plus-generator:3.5.3.1'
+    implementation 'com.alibaba.boot:nacos-config-spring-boot-starter:0.2.12'
+
 }
 
 test {

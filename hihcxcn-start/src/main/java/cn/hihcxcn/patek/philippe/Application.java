@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author yongdeng on 24/01/2024.
  */
-@MapperScan("cn.hihcxcn.patek.philippe.infrastructure.dao")
+@MapperScan("cn.hihcxcn.patek.philippe.infrastructure.mapper")
 @SpringBootApplication(scanBasePackages = "cn.hihcxcn.patek.philippe.*")
 public class Application {
 

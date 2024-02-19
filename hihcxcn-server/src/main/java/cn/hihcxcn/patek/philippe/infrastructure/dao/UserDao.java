@@ -11,7 +11,9 @@ import java.util.List;
  * @author yong
  */
 
-public interface UserDao extends BaseMapper<User> {
+public interface UserDao {
 
+    void createUser(User user);
+    User selectById(Long id);
     List<User> findList(UserQueryDTO userQueryDto);
 }

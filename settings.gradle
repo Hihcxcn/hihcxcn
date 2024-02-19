@@ -1,6 +1,7 @@
 rootProject.name = 'hihcxcn'
 include 'hihcxcn-api'
 include 'hihcxcn-common'
+include 'hihcxcn-doc'
 include 'hihcxcn-server'
 include 'hihcxcn-start'
 include 'hihcxcn-test'
